@@ -1,0 +1,4 @@
+---
+- name: debugging messages
+  debug:
+    msg: "What is your true name Sir: {{ username }} and Whic town you were born: {{ born_place }}"
