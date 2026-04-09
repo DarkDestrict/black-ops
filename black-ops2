@@ -1,0 +1,8 @@
+---
+- name: resolving issues on the systems
+  hosts: localhost
+  become: true
+  gather_facts: true
+
+  roles:
+  - black-ops
